@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="@string/hello"
+        android:gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <TableRow>
+            <TextView
+                android:layout_column="2"
+                android:text="ID:"
+                android:padding="3dip"
+                android:id="@+id/mainidtextView" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainideditText"
+                android:layout_column="3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_column="2"
+                android:text="PW:"
+                android:padding="3dip"
+                android:id="@+id/mainpwtextView" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/mainpweditText"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Info"
+                android:id="@+id/maincheckbox"
+                android:layout_column="2"
+                android:checked="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:id="@+id/mainsignupbutton"
+                android:layout_column="2" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/mainloginbutton"
+                android:layout_column="3" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

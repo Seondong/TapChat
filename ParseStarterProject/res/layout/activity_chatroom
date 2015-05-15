@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/chatroomtextView"
+        android:layout_alignTop="@+id/lvChat"
+        android:layout_alignLeft="@+id/lvChat"
+        android:layout_alignStart="@+id/lvChat"
+        android:layout_alignRight="@+id/lvChat"
+        android:layout_alignEnd="@+id/lvChat"
+        android:textSize="15dp"
+        android:textColor="#ff000000" />
+
+    <ListView
+        android:id="@+id/lvChat"
+        android:transcriptMode="alwaysScroll"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/llSend"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#ff1d1d20" />
+    <RelativeLayout
+        android:id="@+id/llSend"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_toLeftOf="@+id/btSend"
+            android:layout_alignBottom="@+id/btSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="@string/message_hint"
+            android:inputType="textShortMessage"
+            android:imeOptions="actionSend"
+            android:textColor="#ff080808" />
+        <Button
+            android:id="@+id/btSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/send"
+            android:textSize="18sp" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

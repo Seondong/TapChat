@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/flipper"
+        android:flipInterval="1000">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/back1"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you want to talk with other people having same experience?"
+                android:textSize="40dp"
+                android:textColor="#ff000000"
+                android:editable="false"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                android:textStyle="bold|italic"
+                android:visibility="visible"
+                android:typeface="serif"
+                android:focusable="false"
+                android:background="@drawable/listgrad"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView"
+                android:autoText="false" />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/back2"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TapChat is a NFC-based private chatting platform for those of you."
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:editable="false"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                android:textStyle="bold|italic"
+                android:visibility="visible"
+                android:typeface="serif"
+                android:focusable="false"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/listgrad" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+        android:id="@+id/back3"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find NFC tags around the world, and enjoy your chat!"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:editable="false"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                android:textStyle="bold|italic"
+                android:visibility="visible"
+                android:typeface="serif"
+                android:focusable="false"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/listgrad" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TapChat"
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:typeface="monospace"
+                android:textSize="35dp"
+                android:textColor="#ff373737"
+                android:gravity="center"
+                android:layout_below="@+id/introtextView2"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    "
+                android:id="@+id/textView2"
+                android:layout_gravity="center"
+                android:typeface="monospace"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NFC-based chat with people having same experience!"
+                android:id="@+id/C"
+                android:typeface="monospace"
+                android:textSize="20dp"
+                android:textColor="#ff373737"
+                android:layout_marginTop="44dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="348dp"
+                android:layout_height="363dp"
+                android:id="@+id/imageView3"
+                android:background="@drawable/ic_launcher2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/C" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:id="@+id/introbutton"
+                android:layout_marginTop="115dp"
+                android:width="130dp"
+                android:textSize="35dp"
+                android:layout_below="@+id/C"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ViewFlipper>
+</LinearLayout>
+

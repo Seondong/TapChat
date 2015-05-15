@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_gravity="center_horizontal" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_column="2"
+                android:text="ID:"
+                android:padding="3dip"
+                android:id="@+id/signupidtextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupideditText"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_column="2"
+                android:text="Password:"
+                android:padding="3dip"
+                android:id="@+id/signuppwtextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/signuppweditText"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_column="2"
+                android:text="Confirm Password:"
+                android:padding="3dip"
+                android:id="@+id/signuppwtextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/signuppweditText2"
+                android:layout_column="3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_column="2"
+                android:text="Name:"
+                android:padding="3dip"
+                android:id="@+id/signupnametextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/signupnameeditText"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_column="2"
+                android:text="Birthday:"
+                android:padding="3dip"
+                android:id="@+id/signupbirthdaytextView"
+                android:inputType="date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/signupbirthdayeditText"
+                android:layout_column="3" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/signupsignupbutton"
+            android:layout_column="2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to home"
+            android:id="@+id/signuphomebutton"
+            android:layout_column="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

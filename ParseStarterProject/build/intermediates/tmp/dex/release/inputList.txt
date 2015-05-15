@@ -1,0 +1,5 @@
+D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\classes\release
+D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\release\bolts-android-1.2.0-ebbc6c4883b91c215ccac1e578bdb78653921571.jar
+D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\release\ParseCrashReporting-1.9.1-a9d940f4fe967fedf0f0c432b31e8b08ecdf136e.jar
+D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\release\picasso-2.5.2-96caaf3d6906e083a71617bf499143e1186e05cd.jar
+D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\release\Parse-1.9.1-f8e5678205292f019d2089bf0e7b9b19be005d54.jar

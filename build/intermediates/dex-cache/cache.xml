@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\libs\Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.1-f8e5678205292f019d2089bf0e7b9b19be005d54.jar" />
+    </item>
+    <item
+        jar="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\debug\picasso-2.5.2-96caaf3d6906e083a71617bf499143e1186e05cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-ebbc6c4883b91c215ccac1e578bdb78653921571.jar" />
+    </item>
+    <item
+        jar="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\libs\ParseCrashReporting-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2bfbcce5ae61bdd10676df8e89710693c1256024">
+        <dex dex="D:\Dropbox\KSE624 Mobile and Pervasive Computing for Knowledge Services\Mini Project 1\TapChat\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.1-a9d940f4fe967fedf0f0c432b31e8b08ecdf136e.jar" />
+    </item>
+
+</items>

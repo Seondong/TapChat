@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parse_app_id">p1tmvEWEhZUtDhbAKU8r5yBUYVZ6CEoOUjda12TF</string>
+    <string name="parse_client_key">QV2SJR2rfucHxijJhfz8VUdIh6DBgUZX26FqtR59</string>
+
+    <string name="hello">TapChat</string>
+    <string name="app_name">TapChat</string>
+    <string name="title_activity_before_nfc">BeforeNFCActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_hint">Type your message here</string>
+    <string name="send">Send</string>
+
+    <string name="profile_me">My profile Pic</string>
+    <string name="profile_other">Other profile pic</string>
+</resources>
